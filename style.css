@@ -1,0 +1,71 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+#home {
+    background: url(https://images.unsplash.com/photo-1487213802982-74d73802997c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7769196e1b91f3dfe832e82e5956fdaf&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    background: url(https://images.unsplash.com/photo-1505852959938-8193566b2f8e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f40cd9be9c062e9be4d95d08a57b52e&auto=format&fit=crop&w=1453&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background: url(https://images.unsplash.com/photo-1417309807426-472e833fa5d0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f4510d91a4cf1a0c351fedd965483ad&auto=format&fit=crop&w=1351&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+  text-align: center;
+  padding-top: 25%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.5em;
+}
+
+h3 {
+  font-size: 3.0em;
+}
+
+h4 {
+  font-size: 2.5em;
+}
+
+hr {
+  width: 700px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  max-width: 90%;
+}
+
+.started {
+  width: 200px;
+}
+
+/*
+footer {
+  text-align: center;
+  height: 50px;
+  bottom: 0;
+} */
