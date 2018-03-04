@@ -1,10 +1,25 @@
 body {
+
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+#home {
     background: url(https://images.unsplash.com/photo-1487213802982-74d73802997c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7769196e1b91f3dfe832e82e5956fdaf&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-position: center;
-    font-family: 'Lato', sans-serif;
-    color: white;
+}
 
+#about {
+    background: url(https://images.unsplash.com/photo-1505852959938-8193566b2f8e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f40cd9be9c062e9be4d95d08a57b52e&auto=format&fit=crop&w=1453&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background: url(https://images.unsplash.com/photo-1417309807426-472e833fa5d0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f4510d91a4cf1a0c351fedd965483ad&auto=format&fit=crop&w=1351&q=80);
+    background-size: cover;
+    background-position: center;
 }
 
 html {
@@ -26,11 +41,15 @@ html {
 
 h1 {
   font-weight: 700;
-  font-size: 5em;
+  font-size: 4.5em;
 }
 
 h3 {
   font-size: 3.0em;
+}
+
+h4 {
+  font-size: 2.5em;
 }
 
 hr {
